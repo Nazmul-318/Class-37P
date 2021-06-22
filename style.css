@@ -682,7 +682,7 @@ ul.services-tab-items li button span i {
 .testimonial-image{
     position: relative;
 }
-.testimonial-image span{
+.testimonial-icon span{
     content: "";
     top: 180px;
     right: 200px;
@@ -695,6 +695,13 @@ ul.services-tab-items li button span i {
     font-size: 40px;
     color: #e73a3e;
     text-align: center;
+    display: inline-block;
+    transition: .5s;
+}
+
+.testimonial-icon span:hover{
+    background-color: #e73a3e;
+    color: #fff;
 }
 
 /*======================================*/
