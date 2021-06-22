@@ -658,11 +658,15 @@ ul.services-tab-items li button span i {
     margin-right: 12px;
 }
 
-.tesntimonial-content {
+/*======================================*/
+/* Start Tes Section */
+/*======================================*/
+
+.testimonial-content {
     margin-top: 50px;
 }
 
-.tesntimonial-content p {
+.testimonial-content p {
     font-size: 20px;
 }
 
@@ -674,6 +678,23 @@ ul.services-tab-items li button span i {
 
 .client-details p {
     font-size: 17px;
+}
+.testimonial-image{
+    position: relative;
+}
+.testimonial-image span{
+    content: "";
+    top: 180px;
+    right: 200px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    position: absolute;
+    background: #fff;
+    font-size: 40px;
+    color: #e73a3e;
+    text-align: center;
 }
 
 /*======================================*/
